@@ -1,0 +1,14 @@
+- 人数が割けないのでCI/CDやTerraformコードの自動生成などで徹底的に自動化している。責任判断が伴うレビュー・実行トリガーなどのみ手動。またコード共通化やモジュール化で共通化・標準化。SLOは設けず必要に応じてプロジェクト側に運用を移譲するなど割り切り
+- https://x.com/kokuyouwind/status/1819948480397557825
+- tfgenerator
+- AWS System Manager Patch Manager
+- AWS Health Notification
+- CloudWatcg Systhesis Canaries
+- AWS SNS + PagerDuty
+- 障害対応はベストエフォート
+- CloudFrontのキャッシュが多く、障害がユーザーに露出することは少なかった
+- SREグループは2人+レビュワーいくつか
+- プロジェクト側
+- デザイン本部
+- セキュリティ室
+    - 全般的な監視、システム外部からの継続的な監視など
